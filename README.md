@@ -1,73 +1,50 @@
-# Title: Getting Started with Unit Testing in Python
+# GLAB-370.1.2-The-Great-If-Else-Adventure
 
-# Description
-In this lab, students will learn the basics of unit testing in Python using the unittest module. They will create a simple Python program and write unit tests to ensure its correctness. By the end of this lab, students will understand the importance of testing in software development and be able to apply their knowledge to write effective unit tests.
+## Introduction
+Welcome to the GLAB-370.1.2! In this lab, you will embark on an exciting adventure into the world of if-else statements in Python. Get ready to unravel the mysteries of decision-making as you explore the depths of conditional logic. But don't worry, we'll make it fun along the way!
 
-## Example Code
+## Prerequisites
+To fully enjoy this lab, you should have a basic understanding of Python syntax
 
-### program.py
+## Instructions
 
-```
-def square(x):
-    return x * x
-```
-
-### Instructions
-
-## Installation
-
-- Students should start by ensuring they have Python installed on their machine.
-- If they don't, they can install it from the official website.
-- Students should also ensure that they have the unittest module installed. If not, they can install it using pip, which comes with Python. The command is: pip install unittest.
-- Create a new Python file
-- Students should create a new Python file and name it program.py.
-- They should add the following code to the file:
-
-### program.py
+### Step 1: Enter the Land of If-Else
+As you step into this peculiar land, you'll encounter an if-else statement like no other. Brace yourself and prepare to be amazed. Here's a simple example to get you started:
 
 ```
-def square(x):
-    return x * x
+# The Enchanted Door
+password = input("Enter the secret password: ")
+
+if password == "Open Sesame":
+    print("The door opens wide. Welcome!")
+else:
+    print("The door remains closed. Access denied!")
 ```
-Explain that this code defines a function that takes a number and returns its square.
+
+### Step 2: Run the Magical Code
+To witness the power of this mystical if-else statement, follow these steps:
+
+- Open your favorite Python IDE or a text editor.
+- Create a new Python file and save it with a whimsical name like "if_else_adventure.py".
+- Copy the code snippet from Step 1 into your file.
+- Save the file and run it.
+
+### Step 3: Take a Leap of Faith
+
+Now it's your turn to dive into the enchanting realm of if-else statements. Unleash your creativity and write your own code snippets using if-else statements. Need some inspiration? Here are a few ideas to get you started:
+
+- [ ] **The Potion Conundrum:** Write a program that asks the user for their age. If they are under 18, display a message saying they can't drink the magic potion. Otherwise, grant them access to the secret potion recipe.
+
+- [ ] **The Riddle of the Sphinx:** Create a riddle game where the user has to guess the correct answer. If they guess right, congratulate them on their wisdom. Otherwise, bewilder them with a clever hint.
+
+- [ ] **The Tricky Troll:** Imagine a troll guarding a bridge. Prompt the user to answer a riddle. If they answer correctly, they may pass unharmed. Otherwise, well... let's just say they'll have a bumpy journey.
+
+Remember, the sky's the limit! Feel free to come up with your own if-else adventures. Get creative, be playful, and have fun!
+
+### Step 4: Share Your Quest
+Once you've completed your if-else adventures, share your magical creations with your instructor.
 
 
-### Writing Unit Tests
+## Conclusion
+Congratulations on completing The Great If-Else Adventure: Python Edition! You've mastered the art of decision-making through if-else statements and discovered the fun side of programming. Take these newfound skills and continue your journey into the vast realms of Python programming. The magical world awaits your exploration!
 
-- Students should create a new Python file and name it **test_program.py**.
-- They should start by importing the unittest module: import unittest.
-- Explain that the unittest module provides a framework for writing and running tests.
-- Students should then create a new test case class that inherits from **unittest.TestCase**
-```
-class TestProgram(unittest.TestCase):
-```
-- Explain that a test case class contains test methods that verify the behavior of the code under test.
-- Students should now write a test method that tests the square() function:
-```
-class TestProgram(unittest.TestCase):
-    def test_square(self):
-        result = square(2)
-        self.assertEqual(result, 4)
-```
-- Explain that the assertEqual() method checks whether the result of the function call is equal to the expected value.
-
-In this case, the test asserts that the square of 2 is 4.
-
-### Running Tests
-
-- To run the tests, students should open a command prompt and navigate to the folder where the Python files are located.
-- They can then run the command python -m unittest to run all the tests in the folder.
-- Explain that the unittest module discovers and runs all the test cases and test methods in the files that match the pattern test*.py.
-- Students should see that the test passes, indicating that the square() function works as intended.
-
-### Improving the Tests
-
-- Explain that it's important to write clear and descriptive test cases and test methods.
-- Students should modify the test method to use a more descriptive name and add a comment:
-```
-class TestProgram(unittest.TestCase):
-    def test_square_with_positive_number(self):
-        # Test that square of a positive number returns a positive result
-        result = square(2)
-        self.assertEqual(result, 4)
-```
