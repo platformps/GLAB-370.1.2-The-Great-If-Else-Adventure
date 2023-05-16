@@ -46,5 +46,5 @@ Once you've completed your if-else adventures, share your magical creations with
 
 
 ## Conclusion
-Congratulations on completing The Great If-Else Adventure: Python Edition! You've mastered the art of decision-making through if-else statements and discovered the fun side of programming. Take these newfound skills and continue your journey into the vast realms of Python programming. The magical world awaits your exploration!
+Congratulations on completing **The Great If-Else Adventure**! You've mastered the art of decision-making through if-else statements and discovered the fun side of programming. Take these newfound skills and continue your journey into the vast realms of Python programming. The magical world awaits your exploration!
 
